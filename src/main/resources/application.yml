@@ -1,0 +1,15 @@
+spring:
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
+  http:
+    encoding:
+      charset: utf-8
+      force: true
+  profiles:
+    active: product
+mybatis:
+  type-aliases-package: com.baizhi.entity
+
+
