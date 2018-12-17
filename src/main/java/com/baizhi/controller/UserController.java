@@ -17,7 +17,6 @@ public class UserController {
 
     @RequestMapping("test")
     public List<User> queryALl(){
-        System.out.println("123123");
         List<User> users = userMapper.selectAll();
         return users;
     }
